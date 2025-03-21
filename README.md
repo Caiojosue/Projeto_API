@@ -3,7 +3,7 @@
 ![Star Wars Banner](https://github.com/Caiojosue/imagens/blob/main/dv_9zdb.png)
 
 ## 🌟 Sobre o Projeto
-Este projeto é uma aplicação desenvolvida em **PHP** que consome a API do universo Star Wars (SWAPI) para exibir informações detalhadas sobre:
+Este projeto é uma aplicação desenvolvida em **HTML** que consome a API do universo Star Wars (SWAPI) para exibir informações detalhadas sobre:
 
 - 🎬 **Filmes** da saga
 - 🪐 **Planetas** e suas características
@@ -12,7 +12,7 @@ Este projeto é uma aplicação desenvolvida em **PHP** que consome a API do uni
 - 🧑‍🚀 **Personagens** famosos
 - 🦾 **Espécies** que habitam a galáxia
 
-É uma ótima maneira de aprender a consumir APIs com PHP e explorar a franquia mais famosa da ficção científica! ✨
+É uma ótima maneira de aprender a consumir APIs com HTML E JAVASCRIPT e explorar a franquia mais famosa da ficção científica! ✨
 
 ---
 
