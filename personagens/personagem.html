@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="../css/reset.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
+    <link href="../css/footer.css" rel="stylesheet">
+    <link href="../css/table.css" rel="stylesheet">
+    <link rel="shortcut icon" href="https://swapi.dev/static/favicon.ico">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200&family=Odibee+Sans&display=swap" rel="stylesheet">
+    <link href="../css/font.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="shortcut icon" href="https://swapi.dev/static/favicon.ico">
+    <title>SWAPI - Personagens</title>
+</head>
+<body>
+
+<form id="filter-form" style="display: flex; justify-content: flex-end; margin: 1%;">
+    <label for="genero" style="margin-right: 5px;">Filtrar por gênero:</label>
+    <select name="genero" id="genero" style="margin-right: 5px;">
+        <option value="">Todos</option>
+        <option value="male">Masculino</option>
+        <option value="female">Feminino</option>
+        <option value="n/a">Desconhecido</option>
+    </select>
+    <button type="submit">Filtrar</button>
+</form>
+
+<table id="customers">
+    <tr>
+        <th>Nome</th>
+        <th>Peso</th>
+        <th>Altura</th>
+    </tr>
+</table>
+<br>
+<center>
+    <a href="../index.html" class="link">
+        <i class="fa fa-arrow-left"></i>
+        <br><br>Voltar à página inicial!
+    </a>
+</center>
+
+<div class="footer-basic" style="margin-top: 24px">
+    <footer>
+        <div class="social">
+            <a href="https://github.com/Caiojosue/"><i class="icon ion-social-github"></i></a>
+        </div>
+    </footer>
+</div>
+
+<script src="personagem.js"></script>
+</body>
+</html>

@@ -1,0 +1,25 @@
+*{
+  font-family: 'Montserrat', sans-serif;
+  margin: 0;
+}
+
+::-webkit-scrollbar-track {
+background-color: #f4f4f4;
+}
+::-webkit-scrollbar {
+width: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: black;
+  border-radius: 16px;
+}
+
+.link{
+  text-decoration: none;
+  color: #000000;
+}
+
+td {
+font-style: black !important;
+}

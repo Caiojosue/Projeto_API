@@ -1,0 +1,106 @@
+:root {
+    --primary-bg: #ffbe27; 
+    --text-color: black;
+    --btn-padding: 10px;
+    --btn-radius: 4px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+button, .botao, input[type="submit"] {
+    background-color: var(--primary-bg);
+    color: var(--text-color);
+    padding: var(--btn-padding);
+    border: none;
+    border-radius: var(--btn-radius);
+    cursor: pointer;
+    transition: background 0.3s ease-in-out;
+}
+
+
+.pesquisar {
+    padding: 7px;
+    margin-left: 5px;
+    transition: background 0.3s ease-in-out;
+}
+
+
+a {
+    /* font-size: 14px; */
+    font-weight: 600;
+    text-decoration: none;
+    color: var(--text-color);
+    transition: color 0.3s ease-in-out;
+}
+
+.botao:hover {
+    background-color: rgb(155, 237, 221);
+}
+
+.center-search {
+    display: flex;
+    width: 34%;
+}
+
+.center-forms {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    width: 50%;
+}
+
+
+input[type="text"] {
+    height: 30px;
+    width: 100%;
+    max-width: 300px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: var(--btn-radius);
+    transition: border-color 0.3s ease-in-out;
+}
+
+form {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+select {
+    width: 180px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: var(--btn-radius);
+    transition: border-color 0.3s ease-in-out;
+}
+
+select:focus {
+    border-color: var(--primary-hover);
+    outline: none;
+}
+
+#especies, #personagens, #planetas, #veiculos, #filmes, #naves {
+    width: 100%;
+    max-width: 200px;
+}
+
+@media (max-width: 600px) {
+    button, .botao, input[type="submit"] {
+        width: 100%;
+    }
+
+    input[type="text"] {
+        width: 100%;
+    }
+
+    select {
+        width: 100%;
+    }
+}
